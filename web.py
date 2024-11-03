@@ -3,7 +3,7 @@ import functions
 
 names = functions.get_names()
 
-
+#needs to be checked out
 def add_name():
     name = st.session_state["input_name"] +"\n"
     names.append(name)
