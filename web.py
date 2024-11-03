@@ -10,8 +10,8 @@ def add_name():
     functions.write_names(names)
 
 
-st.title("My Todo App")
-st.subheader("This is my Todo App")
+st.title("My NameList App")
+st.subheader("This is my NameList App")
 st.write("This app could help increasing your productivity")
 
 for index, name in enumerate(names):
